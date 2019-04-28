@@ -17,8 +17,8 @@ mkdir "$UNITY_BUILD_DIR"
   -silent-crashes \
   -logFile \
   -force-free \
-  -username "$UNITY_USERNAME"
-  -password "$UNITY_PASSWORD"
+  -username "$UNITY_USERNAME" \
+  -password "$UNITY_PASSWORD" \
   -projectPath "$PROJECT_PATH" \
   -exportPackage "Assets\Lib\Karma" "$EXPORT_PATH" \
   -quit \
